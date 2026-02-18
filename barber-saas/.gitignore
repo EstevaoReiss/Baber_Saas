@@ -1,0 +1,71 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Arquivos de ambiente (além dos .local já existentes)
+.env
+.env.development
+.env.production
+
+# Logs adicionais
+*.log
+logs/
+
+# Cache e temporários
+.cache/
+.temp/
+.tmp/
+
+# Configurações do editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos do sistema operacional
+Thumbs.db
+.DS_Store (já incluído, mas reforçando)
+
+# Build outputs adicionais (se usar outros bundlers)
+dist/
+build/
+
+# Arquivos de cobertura de teste (se não estiver usando)
+.nyc_output/
+
+# Arquivos de lock de dependências (geralmente não, mas se quiser forçar re-instalação)
+# package-lock.json
+# yarn.lock
